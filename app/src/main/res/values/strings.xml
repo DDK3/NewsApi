@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="select_sources">Source</string>
+</resources>
