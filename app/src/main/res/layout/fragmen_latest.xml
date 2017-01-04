@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     >
 
     <android.support.v7.widget.RecyclerView
@@ -9,5 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical" />
+=======
+    android:background="#f0d">
+>>>>>>> origin/master
 
 </LinearLayout>
