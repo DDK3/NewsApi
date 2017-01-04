@@ -6,7 +6,6 @@ package dips.co.news.Util;
 
 public class Settergetter {
 
-<<<<<<< HEAD
     private String Source_name;
     private String sourceId;
     private String news_title;
@@ -54,9 +53,6 @@ public class Settergetter {
     public void setNews_title(String news_title) {
         this.news_title = news_title;
     }
-=======
-    public String Source_name;
->>>>>>> origin/master
 
     public String getSource_name() {
         return Source_name;
@@ -65,7 +61,6 @@ public class Settergetter {
     public void setSource_name(String source_name) {
         Source_name = source_name;
     }
-<<<<<<< HEAD
 
     public String getSourceId() {
         return sourceId;
@@ -74,6 +69,4 @@ public class Settergetter {
     public void setSourceId(String sourceId) {
         this.sourceId = sourceId;
     }
-=======
->>>>>>> origin/master
 }

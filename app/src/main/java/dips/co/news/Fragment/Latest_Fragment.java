@@ -2,7 +2,6 @@ package dips.co.news.Fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-<<<<<<< HEAD
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -29,13 +28,6 @@ import retrofit.Response;
 import retrofit.Retrofit;
 
 import static dips.co.news.Activity.Home.source_id;
-=======
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import dips.co.news.R;
->>>>>>> origin/master
 
 /**
  * Created by Dipesh on 03-Jan-17.
@@ -43,7 +35,6 @@ import dips.co.news.R;
 
 public class Latest_Fragment extends Fragment {
 
-<<<<<<< HEAD
     ArrayList<Settergetter> arrayListLatest = new ArrayList<Settergetter>();
     private RecyclerView recyclerViewLatest;
 
@@ -59,13 +50,10 @@ public class Latest_Fragment extends Fragment {
         service = retrofit.create(News_Api.class);
     }
 
-=======
->>>>>>> origin/master
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragmen_latest, container, false);
-<<<<<<< HEAD
         recyclerViewLatest = (RecyclerView) view.findViewById(R.id.recycler_view_latest);
         recyclerViewLatest.setLayoutManager(new LinearLayoutManager(getActivity()));
 
@@ -130,14 +118,4 @@ public class Latest_Fragment extends Fragment {
         });
     }
 
-=======
-
-//        recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view1);
-//        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-////        return inflater.inflate(R.layout.music, container, false);
-//        getlist();
-
-        return view;
-    }
->>>>>>> origin/master
 }

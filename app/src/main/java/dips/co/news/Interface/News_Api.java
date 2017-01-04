@@ -21,12 +21,9 @@ public interface News_Api {
     Call<JsonObject> sources();
 //    @Path("en") String language
 
-<<<<<<< HEAD
     @GET("articles?&apiKey=f1212f05bf0747bcb74e4cce276c0b24&sortBy=top")
     Call<JsonObject> articles(@Query("source") String source);
 
 //    @GET("articles?&apiKey=f1212f05bf0747bcb74e4cce276c0b24&sortBy=latest")
 //    Call<JsonObject> article(@Query("source") String source);
-=======
->>>>>>> origin/master
 }
